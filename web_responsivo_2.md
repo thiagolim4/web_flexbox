@@ -20,3 +20,22 @@
   background: rgba(0,0,0, 0.4);
 }
 ```
+
+## Imagens Responsivas
+- Tela de Alta Resolução
+- As resoluções no CSS são dadas em DIP (device independent pixel), não necessariamente o correspondente aos pixels físicos: ```dPR = pixel fisico / DIP```
+- dPR = Device Pixel Ratio
+- Media Query: ```@media (resolution 1dppx)```
+- Propriedade srcset:
+```HTML
+<img src="logo.png"
+      srcset="logohd.png 2x, logo.png 1x">
+```
+- Tag ```<picture></picture>```
+- Possibilidade de escrever imagem vetorial na página:
+```CSS
+<svg>
+  <circle cx="50" cy="50" r="40" fill="#F90">
+</svg>
+```
+- Pixels nos botões (geralmente): 50px
