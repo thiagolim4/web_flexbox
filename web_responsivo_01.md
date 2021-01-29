@@ -38,5 +38,3 @@
  - Editor de media-query no topo esquerdo (três barras horizontais), pode verificar qual media está sendo executada a cada resolução
 - Habilita opção de depuração USB no Android, depois vai no Chrome do Desktop e seleciona devTools > Devices, e lá o celular vai aparecer. Clica em Inspect, e pode modificar espelhado no celular.
 - Existe um bug conhecido no iOS que faz com que o viewport não se adapte ao rotacionar o dispositivo. Uma gambiarra que evita o bug é colocar o viewport como ```<meta name="viewport" content="width=device-width, initial-scale=1">.```
-
-## Adaptações grandes de menu
