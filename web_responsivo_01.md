@@ -31,7 +31,7 @@
  - Phones to tablets: 767px v
  - Phones: 480px v
 - Coloca tag para dispositivo usar a largura nativa:
-<meta name="viewport" content="width=device-width">
+```<meta name="viewport" content="width=device-width">```
 - Firefox possui modo responsivo
 - No Chrome, abre o Inspecionar e pode abrir o "mini-celular" para selecionar telas diferentes
  - Pode simular o uso de rede (3G, etc) para verificar a performance da página
